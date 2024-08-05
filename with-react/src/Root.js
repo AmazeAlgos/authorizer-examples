@@ -7,9 +7,9 @@ export default function Root() {
     <BrowserRouter>
       <AuthorizerProvider
         config={{
-          authorizerURL: `https://demo.authorizer.dev`,
+          authorizerURL: `https://authorizer-production-8a03.up.railway.app`,
           redirectURL: window.location.href,
-          clientID: '96fed66c-9779-4694-a79a-260fc489ce33',
+          clientID: '8ea026bd-1bec-4b97-8b11-2f7d6e0ac0e7',
         }}
       >
         <App />

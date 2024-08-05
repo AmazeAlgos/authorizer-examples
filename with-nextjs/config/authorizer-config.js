@@ -1,5 +1,5 @@
 export default {
-	authorizerURL: 'https://demo.authorizer.dev',
-	redirectURL: 'http://localhost:3000',
-	clientID: '96fed66c-9779-4694-a79a-260fc489ce33',
+	authorizerURL: 'https://authorizer-production-8a03.up.railway.app',
+	redirectURL: window.location.origin,
+	clientID: '8ea026bd-1bec-4b97-8b11-2f7d6e0ac0e7',
 };
